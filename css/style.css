@@ -463,7 +463,8 @@ button {
 .banner_main {
     display: flex;
     width: 100%;
-    margin-top: 75px;
+    margin-top: 25px;
+    padding-left: 30px;
 }
 
 .dropdown,
@@ -753,8 +754,9 @@ input.form-control::placeholder {
     float: left;
     background-color: rgb(19, 173, 121);
     height: auto;
-    padding: 90px 0px;
+    padding: 40px 0px;
     background-size: cover;
+    margin-top: 20px;
 }
 
 .shop_taital {
@@ -1294,7 +1296,7 @@ input.form-control::placeholder {
 }
 .MyContainer-login100 {
     width: 300px;  
-   
+    margin: 20px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -1308,7 +1310,7 @@ input.form-control::placeholder {
   }
 .MyLogin100-form-title {
     width: 100%;
-    height: 200px;
+    height: 150px;
     position: relative;
     z-index: 1;
     display: -webkit-box;
@@ -1337,10 +1339,42 @@ input.form-control::placeholder {
     background-color: rgb(19, 173, 121,0.4);
   }
 .myTitleText {
-    width: 100px;
+    padding-left:15px;
+    width: 100%;
     float: left;
     font-size: 35px;
     color: #eaebe7;
     font-weight: bold;
     padding-top: 5px;
+    /*background-color: rgb(23, 203, 143); */
+    border-radius: 50px;
+}
+.myDescrizione{
+    height: 40px;
+    align-items: center;
+}
+.myCentro{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.myBackgroundImg{
+    padding:0;
+    margin:0;
+    width: 100%;
+    
+}
+.myBackgroundCover{
+    height: 100%;
+    padding: 40px 0px;
+    box-sizing: border-box  ;
+    background-color:  rgb(19, 173, 121,0.8);
+}
+.myShop_section{
+    background-image:url("../images/sfondo.png");
+    width: 100%;
+    float: left;
+    height: auto;
+    background-size: cover;
+    margin-top: 20px;
 }
