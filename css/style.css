@@ -1453,4 +1453,24 @@ input.form-control::placeholder {
     
     font-size: 25px;
   }
-  
+  .spazio1 {
+    margin-left: 100px;
+  }
+  .spazio2{
+    margin-left: 170px;
+  }
+  .qrcode{
+    margin-top: 28px;
+    margin-left: 100px;
+    border-radius: 30px;
+  }
+  .normalText{
+    padding-left:15px;
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #eaebe7;
+    padding-top: 5px;
+    /*background-color: rgb(23, 203, 143); */
+    border-radius: 50px;
+  }
